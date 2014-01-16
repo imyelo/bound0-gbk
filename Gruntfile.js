@@ -7,7 +7,7 @@ module.exports = function (grunt) {
     },
     clean: {
       test: {
-        src: ['test/global/app/case'],
+        src: ['test/cmd/app/case', 'test/global/app/case'],
         options: {
           force: true
         }
