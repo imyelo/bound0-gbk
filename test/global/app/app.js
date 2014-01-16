@@ -1,5 +1,5 @@
 (function (window, document) {
-  var globals = ['_inCharset'];
+  var globals = ['ec_GBK', 'UnicodeToAnsi', 'dc_GBK'];
 
   mocha.globals(globals);
   window['test-base']();
